@@ -171,7 +171,7 @@ a {
   text-decoration:none
 }
 a:hover {
-  color:#f02a2a
+  color: blue;
 }
 a:not([href]):not([class]),a:not([href]):not([class]):hover {
   color:inherit;
@@ -457,6 +457,7 @@ progress {
 
 .container-xxl .img-fluid {
   margin-left: 10px;
+  display: flex;
 }
 
 .borderForSmallImgs {
@@ -10153,7 +10154,9 @@ textarea.form-control-lg {
 .Cinfo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .Cinfo-item {
   display: flex;
@@ -10179,3 +10182,9 @@ textarea.form-control-lg {
 }
 
 --
+
+.tocen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
